@@ -34,9 +34,8 @@ https://rinkeby.etherscan.io/address/0xa74746de333958789c0e57aeb12515a050f438ff
 		'0.0002'
 
 	
-## END
-Fallback
-Level completed!
+## Fallback
+## Level completed!
 Difficulty 1/10
 
 You know the basics of how ether goes in and out of contracts, including the usage of the fallback method.

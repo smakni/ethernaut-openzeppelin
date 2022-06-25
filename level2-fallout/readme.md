@@ -1,5 +1,5 @@
-Fallout
-Level completed!
+## Fallout
+## Level completed!
 Difficulty 2/10
 
 That was silly wasn't it? Real world contracts must be much more secure than this and so must it be much harder to hack them right?
