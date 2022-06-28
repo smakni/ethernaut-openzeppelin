@@ -11,7 +11,6 @@ Now we just need to call the function changeOwnerExploit
 This will create a transaction to the target with tx.origin != msg.sender (origin == exploit contract address)
 And so pass the check to change the target sm owner
 
-## Telephone
 ## Level completed!
 Difficulty 1/10
 

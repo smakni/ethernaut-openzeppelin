@@ -12,7 +12,6 @@ This function will find right flip side and send it to the flip function from ou
 Repeat x10
 You can check to target's variable {{consecutiveWins}} to verify
 
-## Coin Flip
 ## Level completed!
 Difficulty 3/10
 

@@ -9,6 +9,7 @@ const web3 = createAlchemyWeb3(API_URL);
 
 async function readValue(contract, method, params) {
 	try {
+		console.log("Params:", params)
 		let smartContractValue = await contract.methods[method](...params).call();
 		console.log(`Read ${method} params: ${params} value:`, smartContractValue);
 	} catch (error) {
@@ -18,6 +19,7 @@ async function readValue(contract, method, params) {
 
 async function createTransaction(contract, method, ethValue, params) {
 	try {
+		console.log("Params:", params)
 		const nonce = await web3.eth.getTransactionCount(PUBLIC_KEY, "latest"); // get latest nonce
 
 		// let gasPrice = await web3.eth.getGasPrice();
