@@ -1,14 +1,21 @@
 # SOLUTION
 ## Links
-exploit: https://rinkeby.etherscan.io/address/0xb99e64babfa435c84fad96101c6e1cc808380154
-target: https://rinkeby.etherscan.io/address/0x2575a64c9d9dc7dfc51acd9ccd37ae0513c57802
+
+Exploit: https://rinkeby.etherscan.io/address/0xb99e64babfa435c84fad96101c6e1cc808380154
+
+Target: https://rinkeby.etherscan.io/address/0x2575a64c9d9dc7dfc51acd9ccd37ae0513c57802
 
 
 Deploy exploit.sol to the rinkeby network
+
 Call the function setTargetAddr with the target smart contrat address
+
 This will create a link/interface from the sm we just deployed and the target
+
 Now we just need to call the function changeOwnerExploit
+
 This will create a transaction to the target with tx.origin != msg.sender (origin == exploit contract address)
+
 And so pass the check to change the target sm owner
 
 ## Level completed!
