@@ -6,7 +6,7 @@ Exploit: https://rinkeby.etherscan.io/address/0x7748447584c671a0ec6e0088e317224d
 We are gonna exploit a re-entrancy vulnerability (solidity ^0.6.0) in the withdraw function
 In fact the msg.sender.call{value:_amount}("");
 Is called before our balance update and with no protection
-So we can call this until thew target balance is not empty with an exploit smart contrat's fallbakc function
+So we can call this until thew target balance is empty with an exploit smart contrat's fallback function
 It will call again and again the withdraw function without updating our balance
 
 So for this exploti we are gonna:
